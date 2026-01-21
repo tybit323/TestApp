@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: system-ui, sans-serif;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.primary {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+#change-file-btn {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
